@@ -1,5 +1,5 @@
 {
-    "name": "lcobucci/jwt",
+    "name": "ixarlie/jwt-lts",
     "description": "A simple library to work with JSON Web Token and JSON Web Signature",
     "license": [
         "BSD-3-Clause"
@@ -17,7 +17,7 @@
         }
     ],
     "require": {
-        "php": "~8.1.0 || ~8.2.0",
+        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
         "ext-hash": "*",
         "ext-json": "*",
         "ext-openssl": "*",
@@ -38,6 +38,9 @@
     },
     "suggest": {
         "lcobucci/clock": ">= 3.0"
+    },
+    "replace": {
+        "lcobucci/jwt": "*"
     },
     "autoload": {
         "psr-4": {
