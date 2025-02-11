@@ -1,6 +1,6 @@
 {
     "name": "ixarlie/jwt-lts",
-    "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+    "description": "Adding support for a wider range of PHP versions to lcobucci/jtw v5.0.x",
     "license": [
         "BSD-3-Clause"
     ],
